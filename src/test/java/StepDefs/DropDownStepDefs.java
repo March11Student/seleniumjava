@@ -12,8 +12,9 @@ public class DropDownStepDefs {
 
     @Then("^I am able to verify single select dropdown$")
     public void verifySingleDD() {
-        dd.selectSingleValueDropDown("Yahoo");
+        dd.selectSingleValueDropDown("Apple");
         System.out.println("yahoo selected");
+        dd.selectMultiValueDropDown();
 
     }
 }

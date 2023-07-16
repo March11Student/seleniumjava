@@ -15,13 +15,13 @@
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.10.0</version>
+            <version>3.14.0</version>
         </dependency>
-
-       <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -55,6 +55,13 @@
             <artifactId>cucumber-gherkin</artifactId>
             <version>7.13.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.jsexecutor/jsexecutor-core -->
+        <dependency>
+            <groupId>com.jsexecutor</groupId>
+            <artifactId>jsexecutor-core</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+
 
 
     </dependencies>
