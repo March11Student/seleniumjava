@@ -2,6 +2,7 @@ package Common;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -70,7 +71,10 @@ public class BasePage {
         }
     }
 
-    public void scrollingByPixel(){
+    public static void scrollingByPixel(){
+        pause(5000);
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("window.scrollBy(0,3000)");
 
     }
 
