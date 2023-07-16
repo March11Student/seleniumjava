@@ -71,7 +71,6 @@ public class BasePage {
     }
 
     public void scrollingByPixel(){
-        javascriptexecutor js = (javascriptexecutor) driver;
 
     }
 
