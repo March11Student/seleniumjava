@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         //path of feature file
-        features ="/Users/vishalu/Downloads/Class2023/seleniumjava/src/test/java/Features",
+        features ="C:\\workspace\\seleniumjava\\src\\test\\java\\Features\\TestDropDown.feature",
         //path of step definition file
         glue = {"StepDefs"}
 )
