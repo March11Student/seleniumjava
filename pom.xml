@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
+            <version>4.10.0</version>
         </dependency>
 
 
@@ -47,6 +47,21 @@
             <version>1.2.6</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jsexecutor</groupId>
+            <artifactId>jsexecutor-core</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+
+
+
+
 
 
 
