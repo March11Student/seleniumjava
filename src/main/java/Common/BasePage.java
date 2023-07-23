@@ -6,6 +6,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.io.File;
@@ -17,11 +19,12 @@ import java.util.Date;
 public class BasePage {
     public static WebDriver driver;
 
-    public static  String url = "https://www.globalsqa.com/demo-site/draganddrop/";
+    public static  String url = "https://www.hyrtutorials.com/p/window-handles-practice.html";
 
     public static void initDriver() {
-
-        driver = WebDriverManager.chromedriver().create();
+        ChromeOptions co = new ChromeOptions();
+        WebDriverManager.chromedriver().driverVersion("114.0.5735.198").setup();
+        driver = new ChromeDriver(co);
     }
 
     public static void destroyDriver() {
