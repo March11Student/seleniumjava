@@ -17,7 +17,7 @@ import java.util.Date;
 public class BasePage {
     public static WebDriver driver;
 
-    public static  String url = "https://www.redbus.in/";
+    public static  String url = "https://www.globalsqa.com/demo-site/draganddrop/";
 
     public static void initDriver() {
 
