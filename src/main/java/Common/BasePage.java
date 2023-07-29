@@ -20,8 +20,9 @@ public class BasePage {
     public static  String url = "https://www.redbus.in/";
 
     public static void initDriver() {
+        driver= WebDriverManager.edgedriver( ).create();
 
-        driver = WebDriverManager.chromedriver().create();
+      // driver = WebDriverManager.chromedriver().create();
     }
 
     public static void destroyDriver() {
