@@ -66,6 +66,7 @@ public class WindowHandleUtility extends BasePage {
         System.out.println("All values has been entered");
 
         destroyDriver();
+        System.out.println("driver closed");
 
     }
 
