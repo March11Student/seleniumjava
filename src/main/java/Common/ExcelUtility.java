@@ -73,11 +73,5 @@ public class ExcelUtility {
 
         ExcelUtility ex = new ExcelUtility();
         ex.readDataFromExcel();
-
-
-
-
-
-
     }
 }
