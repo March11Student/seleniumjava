@@ -21,7 +21,7 @@ public class DropDownPage extends BasePage {
         pause(2);
         sel.selectByVisibleText("Bing");
         takeScreeShot();
-        pause(2);
+        pause(5);
     }
 
     public void selectMultiValueDropDown() {
