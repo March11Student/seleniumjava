@@ -5,7 +5,7 @@ Feature: Test dropdown functionality
 #    Then  I am able to verify single select dropdown
 #    And  I am able to close browser
 
-  Scenario: Verify Scrolling
+  Scenario : Verify Scrolling
     Given I navigate to homepage
-    Then  I am able to verify scrolling
-    And  I am able to close browser
+    Then I am able to verify scrolling
+    And I am able to close browser
